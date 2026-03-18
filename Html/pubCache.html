@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter une Publication</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styleSheets/styleCache.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ajouter une Publication</h1>
+        
+        <form id="publicationForm">
+            <div class="form-group">
+                <label for="titre">Titre *</label>
+                <input type="text" id="titre" name="titre" required placeholder="Ex: Introduction à JavaScript">
+            </div>
+
+            <div class="form-group">
+                <label for="auteur">Auteur *</label>
+                <input type="text" id="auteur" name="auteur" required placeholder="Ex: Marie Dupont">
+            </div>
+
+            <div class="form-group">
+                <label for="contenu">Contenu *</label>
+                <textarea id="contenu" name="contenu" required placeholder="Écrivez le contenu de votre article ici..."></textarea>
+            </div>
+
+            <button type="submit">Envoyer la Publication</button>
+        </form>
+
+        <div class="message" id="message"></div>
+    </div>
+    <div id="confirmDialog" style="display:none">
+        Voulez-vous vraiment envoyer cette publication ?
+      </div>
+    <script src="Script/formPubli.js"></script>
+</body>
+</html>

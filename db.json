@@ -1,0 +1,390 @@
+{
+  "publications": [
+    {
+      "id": "1",
+      "titre": "Introduction à React et ses composants",
+      "auteur": "Marie Dubois",
+      "datePublication": "2024-01-15",
+      "contenu": "React est une bibliothèque JavaScript populaire pour construire des interfaces utilisateur. Dans cet article, nous allons explorer les concepts fondamentaux des composants React et comment ils permettent de créer des applications web modulaires et réutilisables. Les composants sont les blocs de construction de toute application React, et comprendre leur fonctionnement est essentiel pour tout développeur."
+    },
+    {
+      "id": "2",
+      "titre": "Les hooks en React : useState et useEffect",
+      "auteur": "Jean Tremblay",
+      "datePublication": "2024-01-22",
+      "contenu": "Les hooks ont révolutionné la façon dont nous écrivons des composants React. useState permet de gérer l'état local d'un composant, tandis que useEffect gère les effets de bord. Ces deux hooks sont essentiels pour créer des composants fonctionnels modernes et performants. Découvrez comment les utiliser efficacement dans vos projets."
+    },
+    {
+      "id": "3",
+      "titre": "JSON Server : votre API de développement rapide",
+      "auteur": "Sophie Lapointe",
+      "datePublication": "2024-02-01",
+      "contenu": "JSON Server est un outil formidable pour les développeurs front-end qui ont besoin d'une API REST complète sans configuration complexe. En quelques minutes, vous pouvez créer une API fonctionnelle basée sur un simple fichier JSON. C'est l'outil parfait pour prototyper rapidement ou pour développer en attendant que l'API backend soit prête."
+    },
+    {
+      "id": "4",
+      "titre": "CSS Grid vs Flexbox : quel layout choisir ?",
+      "auteur": "Marc Bouchard",
+      "datePublication": "2024-02-05",
+      "contenu": "Le choix entre CSS Grid et Flexbox peut être déroutant pour les développeurs. Grid excelle pour les layouts en deux dimensions, tandis que Flexbox est parfait pour les alignements en une dimension. Dans cet article, nous comparons ces deux technologies et vous aidons à choisir la meilleure option selon vos besoins de mise en page."
+    },
+    {
+      "id": "5",
+      "titre": "TypeScript : pourquoi typer votre JavaScript ?",
+      "auteur": "Amélie Gagnon",
+      "datePublication": "2024-02-08",
+      "contenu": "TypeScript ajoute un système de types statiques à JavaScript, ce qui permet de détecter les erreurs plus tôt dans le processus de développement. Bien que cela nécessite un apprentissage initial, les avantages en termes de maintenabilité du code et de productivité sont considérables. Découvrez pourquoi de plus en plus d'équipes adoptent TypeScript."
+    },
+    {
+      "id": "6",
+      "titre": "Optimisation des performances web en 2024",
+      "auteur": "Pierre Leblanc",
+      "datePublication": "2024-02-10",
+      "contenu": "La performance web est cruciale pour l'expérience utilisateur et le SEO. Dans cet article, nous explorons les meilleures pratiques 2024 : lazy loading, code splitting, optimisation des images, mise en cache stratégique et bien plus. Apprenez à rendre votre site web plus rapide et plus efficace pour satisfaire vos utilisateurs."
+    },
+    {
+      "id": "7",
+      "titre": "Architecture moderne d'applications web",
+      "auteur": "Catherine Roy",
+      "datePublication": "2024-02-12",
+      "contenu": "L'architecture d'une application web moderne doit être évolutive, maintenable et performante. Nous examinons les patterns architecturaux actuels : JAMstack, architecture en microservices, serverless, et composants réutilisables. Découvrez comment structurer votre prochaine application pour garantir sa pérennité et sa scalabilité."
+    },
+    {
+      "id": "80d2",
+      "titre": "Test de publication",
+      "auteur": "Nicolas Perron",
+      "datePublication": "2026-02-20",
+      "contenu": "loreum ipsum dollet allk jjeka loreum ipsum dollet allk jjeka vloreum ipsum dollet allk jjeka loreum ipsum dollet allk jjeka loreum ipsum dollet allk jjeka"
+    },
+    {
+      "id": "c4a3",
+      "titre": "Jad Bentayaa Idrissi",
+      "auteur": "Nicolas Perron",
+      "datePublication": "2026-02-20",
+      "contenu": "Lorem ipsum jad dollet mak Lorem ipsum jad dollet mak Lorem ipsum jad dollet mak Lorem ipsum jad dollet mak Lorem ipsum jad dollet mak"
+    },
+    {
+      "id": "58b0",
+      "titre": "Test de publication redirect",
+      "auteur": "Nicolas Perron",
+      "datePublication": "2026-02-20",
+      "contenu": "lorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare"
+    },
+    {
+      "id": "f76d",
+      "titre": "Test de publication redirect2",
+      "auteur": "Nicolas Perron",
+      "datePublication": "2026-02-20",
+      "contenu": "lorem ipsum amdaw larelorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare lorem ipsum amdaw lare"
+    },
+    {
+      "id": "ae9b",
+      "titre": "Test de publication",
+      "auteur": "Nicolas Perron",
+      "datePublication": "2026-02-20",
+      "contenu": "test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test "
+    }
+  ],
+  "commentaires": [
+    {
+      "id": "1",
+      "publicationId": 1,
+      "datePublication": "2024-01-16",
+      "contenu": "Excellent article ! Les explications sur les composants sont très claires et bien structurées."
+    },
+    {
+      "id": "2",
+      "publicationId": 1,
+      "datePublication": "2024-01-17",
+      "contenu": "Merci pour ce tutoriel. J'ai enfin compris le concept de composants réutilisables."
+    },
+    {
+      "id": "3",
+      "publicationId": 2,
+      "datePublication": "2024-01-23",
+      "contenu": "Les hooks ont vraiment simplifié mon code. Article très utile pour les débutants."
+    },
+    {
+      "id": "4",
+      "publicationId": 2,
+      "datePublication": "2024-01-24",
+      "contenu": "Pourriez-vous faire un article sur useContext et useReducer aussi ?"
+    },
+    {
+      "id": "5",
+      "publicationId": 3,
+      "datePublication": "2024-02-02",
+      "contenu": "JSON Server m'a sauvé la vie pendant le développement de mon projet !"
+    },
+    {
+      "id": "6",
+      "publicationId": 4,
+      "datePublication": "2024-02-06",
+      "contenu": "Très bon comparatif. J'utilise maintenant Grid pour mes layouts complexes."
+    },
+    {
+      "id": "7",
+      "publicationId": 5,
+      "datePublication": "2024-02-09",
+      "contenu": "TypeScript semblait compliqué au début, mais cet article m'a convaincu d'essayer."
+    },
+    {
+      "id": "8",
+      "publicationId": 5,
+      "datePublication": "2024-02-09",
+      "contenu": "Les bénéfices en termes de maintenance sont réels. Mon équipe a adopté TypeScript grâce à cet article."
+    },
+    {
+      "id": "9",
+      "publicationId": 6,
+      "datePublication": "2024-02-11",
+      "contenu": "Les conseils d'optimisation ont amélioré le score de mon site de 30 points sur Lighthouse !"
+    },
+    {
+      "id": "10",
+      "publicationId": 7,
+      "datePublication": "2024-02-12",
+      "contenu": "Architecture solide = moins de dette technique. Merci pour ces bonnes pratiques."
+    },
+    {
+      "id": "8a7f",
+      "publicationId": "2",
+      "datePublication": "2026-02-24",
+      "contenu": "dawadawdadwa"
+    },
+    {
+      "id": "3999",
+      "publicationId": "1",
+      "datePublication": "2026-02-24",
+      "contenu": "jaime jad"
+    },
+    {
+      "id": "c857",
+      "publicationId": "80d2",
+      "datePublication": "2026-02-24",
+      "contenu": "test"
+    },
+    {
+      "id": "d3af",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Contenu du commentaire."
+    },
+    {
+      "id": "341f",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Test date."
+    },
+    {
+      "id": "d5f0",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Test id."
+    },
+    {
+      "id": "a51f",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Test id."
+    },
+    {
+      "id": "5a55",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Test id."
+    },
+    {
+      "id": "10a0",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Test date.Mon commentaire de test.Contenu du commentaire.Test date.Mon commentaire de test.Test date."
+    },
+    {
+      "id": "a59b",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Mon commentaire de test.Contenu du commentaire."
+    },
+    {
+      "id": "b66a",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Test id."
+    },
+    {
+      "id": "ece7",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Mon commentaire de test."
+    },
+    {
+      "id": "0578",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Test date.Mon commentaire de test.Contenu du commentaire.Test date.Mon commentaire de test.Test date."
+    },
+    {
+      "id": "e7e9",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Ceci est un commentaire de test Cypress."
+    },
+    {
+      "id": "3fb1",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Ceci est un commentaire de test Cypress."
+    },
+    {
+      "id": "e72c",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Ceci est un commentaire de test Cypress."
+    },
+    {
+      "id": "2461",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Ceci est un commentaire de test Cypress."
+    },
+    {
+      "id": "1d5f",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Ceci est un commentaire de test Cypress."
+    },
+    {
+      "id": "3ca4",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Ceci est un commentaire de test Cypress."
+    },
+    {
+      "id": "0cbf",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Ceci est un commentaire de test Cypress."
+    },
+    {
+      "id": "1b7c",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Ceci est un commentaire de test Cypress."
+    },
+    {
+      "id": "b2f0",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Mon commentaire de test."
+    },
+    {
+      "id": "9504",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Contenu du commentaire de test."
+    },
+    {
+      "id": "54d6",
+      "publicationId": "1",
+      "datePublication": "2026-03-07",
+      "contenu": "Test content-type."
+    },
+    {
+      "id": "232b",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Mon commentaire de test."
+    },
+    {
+      "id": "b3d8",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Contenu du commentaire de test."
+    },
+    {
+      "id": "4371",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Test content-type."
+    },
+    {
+      "id": "eb2d",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Mon commentaire de test."
+    },
+    {
+      "id": "5e47",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": ""
+    },
+    {
+      "id": "61f0",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Mon commentaire de test."
+    },
+    {
+      "id": "38d7",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": ""
+    },
+    {
+      "id": "2b06",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Mon commentaire de test."
+    },
+    {
+      "id": "4877",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Contenu du commentaire de test."
+    },
+    {
+      "id": "92f2",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": ""
+    },
+    {
+      "id": "b932",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Mon commentaire de test."
+    },
+    {
+      "id": "a3b0",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Contenu du commentaire de test."
+    },
+    {
+      "id": "63a2",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Test content-type."
+    },
+    {
+      "id": "c28b",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Mon commentaire de test."
+    },
+    {
+      "id": "3c15",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Contenu du commentaire de test."
+    },
+    {
+      "id": "d737",
+      "publicationId": "2",
+      "datePublication": "2026-03-07",
+      "contenu": "Test content-type."
+    }
+  ]
+}

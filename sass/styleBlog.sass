@@ -1,0 +1,68 @@
+/* Color Palette: https://colorhunt.co/palette/222831393e4600adb5eeeeee */
+
+// Color Variables
+$color-dark: #222831
+$color-gray: #393E46
+$color-cyan: #00ADB5
+$color-light: #EEEEEE
+// Body styles
+body
+  background-color: $color-light
+  
+  &.d-flex.flex-column.min-vh-100
+    display: flex
+    flex-direction: column
+    min-height: 100vh
+
+// Navbar styles
+.navbar
+  background-color: $color-dark !important
+
+.navbar-brand
+  color: $color-cyan !important
+  
+  &:hover
+    color: $color-cyan !important
+    opacity: 0.8
+
+.nav-link
+  color: $color-light !important
+  
+  &:hover,
+  &.active
+    color: $color-cyan !important
+
+.navbar-toggler
+  border-color: $color-gray
+
+.navbar-toggler-icon
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2300ADB5' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+
+// Footer styles
+.footer
+  background-color: $color-light
+  border-top: 1px solid $color-gray
+  
+  a
+    color: $color-dark
+    text-decoration: none
+    transition: color 0.3s ease
+    
+    &:hover
+      color: $color-cyan
+  
+  p
+    color: $color-dark
+    margin: 0
+
+// Card styles
+.card
+  &.centered-card
+    width: 300px
+    height: 300px
+
+// Container with centered card
+.centered-card-container
+  min-height: 50vh
+
+

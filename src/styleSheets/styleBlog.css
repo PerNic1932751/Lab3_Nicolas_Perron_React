@@ -1,0 +1,64 @@
+/* Color Palette: https://colorhunt.co/palette/222831393e4600adb5eeeeee */
+body {
+  background-color: #EEEEEE;
+}
+body.d-flex.flex-column.min-vh-100 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #222831 !important;
+}
+
+.navbar-brand {
+  color: #00ADB5 !important;
+}
+.navbar-brand:hover {
+  color: #00ADB5 !important;
+  opacity: 0.8;
+}
+
+.nav-link {
+  color: #EEEEEE !important;
+}
+.nav-link:hover, .nav-link.active {
+  color: #00ADB5 !important;
+}
+
+.navbar-toggler {
+  border-color: #393E46;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2300ADB5' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.footer {
+  background-color: #EEEEEE;
+  border-top: 1px solid #393E46;
+}
+.footer a {
+  color: #222831;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer a:hover {
+  color: #00ADB5;
+}
+.footer p {
+  color: #222831;
+  margin: 0;
+}
+
+.card.centered-card {
+  width: 300px;
+  height: 300px;
+}
+
+.centered-card-container {
+  min-height: 50vh;
+}
+
+/*# sourceMappingURL=styleBlog.css.map */

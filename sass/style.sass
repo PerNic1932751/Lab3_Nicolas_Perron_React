@@ -1,0 +1,76 @@
+/* Color Palette: https://colorhunt.co/palette/222831393e4600adb5eeeeee */
+
+// Color Variables
+$color-dark: #222831
+$color-gray: #393E46
+$color-cyan: #00ADB5
+$color-light: #EEEEEE
+body
+  background-color: $color-light
+
+.navbar
+  background-color: $color-dark !important
+
+.navbar-brand
+  color: $color-cyan !important
+  
+  &:hover
+    color: $color-cyan !important
+    opacity: 0.8
+
+.nav-link
+  color: $color-light !important
+  
+  &:hover,
+  &.active
+    color: $color-cyan !important
+
+.navbar-toggler
+  border-color: $color-gray
+
+.navbar-toggler-icon
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2300ADB5' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+
+.footer
+  background-color: $color-light
+  border-top: 1px solid $color-gray
+  
+  a
+    color: $color-dark
+    text-decoration: none
+    transition: color 0.3s ease
+    
+    &:hover
+      color: $color-cyan
+  
+  p
+    color: $color-dark
+    margin: 0
+
+.card-title 
+  background-color:$color-gray
+  color: white
+  padding: 10px 24px
+  border-radius: 15px; 
+  display: inline-block;
+  margin: 0 0 15px 0
+  font-size: 1.2rem
+  text-align: center
+
+.card-text
+  margin-left: 15px
+  margin-right: 15px
+h6
+  text-align: center
+#linkPubli
+  text-align: center
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600&display=swap')
+
+$font-title: 'Lora', serif
+$font-body: 'Open Sans', sans-serif
+
+h1, h2, h3, h4, h5, h6
+  font-family: $font-title
+
+p
+  font-family: $font-body
