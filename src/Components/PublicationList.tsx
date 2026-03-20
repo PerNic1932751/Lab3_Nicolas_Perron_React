@@ -1,12 +1,7 @@
 import { useEffect, useState } from "react";
+import PublicationCard from "./PublicationCard";
+import type { Publication } from "../types";
 
-interface Publication {
-  id: string;
-  titre: string;
-  contenu: string;
-  auteur: string;
-  datePublication: string;
-}
 
 export default function PublicationList() {
   const [publications, setPublications] = useState<Publication[]>([]);
@@ -48,27 +43,6 @@ export default function PublicationList() {
       {publications.map((publication) => (
         <PublicationCard key={publication.id} publication={publication} />
       ))}
-    </div>
-  );
-}
-
-function PublicationCard({ publication }: { publication: Publication }) {
-  return (
-    <div className="col-md-4 mb-4">
-      <div className="card h-100">
-        <img
-          src="../images/pudge.jpg"
-          className="card-img-top"
-          alt="Card image cap"
-        />
-        <div className="card-body">
-          <h2 className="card-title">{publication.titre}</h2>
-          <p className="card-text">{publication.contenu}</p>
-          <h6 className="card-text">{publication.auteur}</h6>
-          <h6 className="card-text">{publication.datePublication}</h6>
-          <a href={`/blog?id=${publication.id}`}>Lire la suite</a>
-        </div>
-      </div>
     </div>
   );
 }
