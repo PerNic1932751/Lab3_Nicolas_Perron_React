@@ -6,6 +6,8 @@ export interface Publication {
     datePublication: string;
   }
   export interface Commentaire {
+    id: string;
+    publicationId: string;
     contenu: string;
     datePublication: string;
   }

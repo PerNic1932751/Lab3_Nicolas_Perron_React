@@ -88,61 +88,61 @@
   "commentaires": [
     {
       "id": "1",
-      "publicationId": 1,
+      "publicationId": "1",
       "datePublication": "2024-01-16",
       "contenu": "Excellent article ! Les explications sur les composants sont très claires et bien structurées."
     },
     {
       "id": "2",
-      "publicationId": 1,
+      "publicationId": "1",
       "datePublication": "2024-01-17",
       "contenu": "Merci pour ce tutoriel. J'ai enfin compris le concept de composants réutilisables."
     },
     {
       "id": "3",
-      "publicationId": 2,
+      "publicationId": "2",
       "datePublication": "2024-01-23",
       "contenu": "Les hooks ont vraiment simplifié mon code. Article très utile pour les débutants."
     },
     {
       "id": "4",
-      "publicationId": 2,
+      "publicationId": "2",
       "datePublication": "2024-01-24",
       "contenu": "Pourriez-vous faire un article sur useContext et useReducer aussi ?"
     },
     {
       "id": "5",
-      "publicationId": 3,
+      "publicationId": "3",
       "datePublication": "2024-02-02",
       "contenu": "JSON Server m'a sauvé la vie pendant le développement de mon projet !"
     },
     {
       "id": "6",
-      "publicationId": 4,
+      "publicationId": "4",
       "datePublication": "2024-02-06",
       "contenu": "Très bon comparatif. J'utilise maintenant Grid pour mes layouts complexes."
     },
     {
       "id": "7",
-      "publicationId": 5,
+      "publicationId": "5",
       "datePublication": "2024-02-09",
       "contenu": "TypeScript semblait compliqué au début, mais cet article m'a convaincu d'essayer."
     },
     {
       "id": "8",
-      "publicationId": 5,
+      "publicationId": "5",
       "datePublication": "2024-02-09",
       "contenu": "Les bénéfices en termes de maintenance sont réels. Mon équipe a adopté TypeScript grâce à cet article."
     },
     {
       "id": "9",
-      "publicationId": 6,
+      "publicationId": "6",
       "datePublication": "2024-02-11",
       "contenu": "Les conseils d'optimisation ont amélioré le score de mon site de 30 points sur Lighthouse !"
     },
     {
       "id": "10",
-      "publicationId": 7,
+      "publicationId": "7",
       "datePublication": "2024-02-12",
       "contenu": "Architecture solide = moins de dette technique. Merci pour ces bonnes pratiques."
     },
@@ -385,6 +385,37 @@
       "publicationId": "2",
       "datePublication": "2026-03-07",
       "contenu": "Test content-type."
+    },
+    {
+      "id": "2fd3",
+      "publicationId": "1",
+      "datePublication": "2026-03-25",
+      "contenu": "wowowowo test"
+    },
+    {
+      "id": "1bca",
+      "publicationId": "3",
+      "datePublication": "2026-03-25",
+      "contenu": "Bonjour test "
+    },
+    {
+      "id": "c950",
+      "publicationId": "4",
+      "datePublication": "2026-03-25",
+      "contenu": " ewfwfew"
+    },
+    {
+      "publicationId": "3",
+      "datePublication": "2026-03-25",
+      "contenu": "test final",
+      "id": "4-IDYEf"
+    },
+    {
+      "publicationId": "3",
+      "datePublication": "2026-03-25",
+      "contenu": "testttttttt",
+      "id": "oy4cHFw"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

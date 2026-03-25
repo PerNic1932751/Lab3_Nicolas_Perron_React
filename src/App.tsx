@@ -2,7 +2,8 @@ import PublicationList from "./Components/PublicationList";
 import Navbar from "./Components/NavBar";
 import SearchBar from "./Components/SearchBar";
 import Footer from "./Components/Footer";
-
+import "./styleSheets/custom.css";
+import "./styleSheets/style.css";
 export default function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
